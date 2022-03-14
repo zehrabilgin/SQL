@@ -1,0 +1,22 @@
+---1
+SELECT *
+FROM film
+WHERE title LIKE '%n'
+ORDER BY length DESC
+LIMIT 10;
+
+---2
+SELECT *
+FROM film
+WHERE title LIKE '%n'
+ORDER BY length ASC
+OFFSET 5
+LIMIT 5;
+
+---3
+SELECT *
+FROM film
+WHERE title LIKE '%n'
+ORDER BY length ASC
+OFFSET 5
+LIMIT 5;
